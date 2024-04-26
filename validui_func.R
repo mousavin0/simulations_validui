@@ -141,7 +141,7 @@ generatingdata_ui_logistic <- function(n, rho, vecy, vect, linear = FALSE, sigma
   X <- matrix(rnorm(n * l, mean = 0, sd = xvar), n, l)
   
   eta <- rlogis(n,0,1)
-  xi <- rho*sigma1 + rnorm(n,0,sigma1)
+  xi <- rho*sigma1*eta + rnorm(n,0,sigma1)
   
   gX <- X %*% vect
   mX <- X %*% vecy
@@ -159,7 +159,7 @@ generatingdata_ui_high_logistic <- function(n, rho, vecy, vect = 0.3, linear = F
   X <- matrix(rnorm(n * p, mean = 0, sd = xvar), n, p)
   
   eta <- rlogis(n,0,1)
-  xi <- rho*sigma1 + rnorm(n,0,sigma1)
+  xi <- rho*sigma1*eta + rnorm(n,0,sigma1)
   
   gamma <- vect * c(
     1, 1 / 2, 1 / 3, 1 / 4, 1 / 5,
