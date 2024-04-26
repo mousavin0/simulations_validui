@@ -6,13 +6,17 @@ Rdata files have the results. There are three matrices for coverages of each est
 
 
 cov_scen3_refit_trueb_farrellMinusConstant
+
 cov_scen3_refit_sigNotCor_ours
+
 cov_scen3_new_sigCor_notheory
 
 
 
 bias_scen3_refit_trueb_farrellMinusConstant
+
 bias_scen3_refit_sigNotCor_ours 
+
 bias_scen3_new_sigCor_notheory 
 
 
