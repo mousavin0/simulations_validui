@@ -5,15 +5,15 @@ Rdata files have the results. There are three matrices for coverages of each est
 
 
 
-cov_scen3_refit_trueb_farrellMinusConstant=matrix(NA,nrow = length(nvec),ncol = length(rhovec))
-cov_scen3_refit_sigNotCor_ours=matrix(NA,nrow = length(nvec),ncol = length(rhovec))
-cov_scen3_new_sigCor_notheory <- matrix(NA, nrow = length(nvec), ncol = length(rhovec))
+cov_scen3_refit_trueb_farrellMinusConstant
+cov_scen3_refit_sigNotCor_ours
+cov_scen3_new_sigCor_notheory
 
 
-#CHANGES AFTER REVISION
-bias_scen3_refit_trueb_farrellMinusConstant <- matrix(NA, nrow = length(nvec), ncol = length(rhovec))
-bias_scen3_refit_sigNotCor_ours <- matrix(NA, nrow = length(nvec), ncol = length(rhovec))
-bias_scen3_new_sigCor_notheory <- matrix(NA, nrow = length(nvec), ncol = length(rhovec))
+
+bias_scen3_refit_trueb_farrellMinusConstant
+bias_scen3_refit_sigNotCor_ours 
+bias_scen3_new_sigCor_notheory 
 
 
 
