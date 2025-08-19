@@ -1,6 +1,4 @@
-
 # load("scenarioFour_final.Rdata")
-
 library(devtools)
 # install("C:\\Users\\Nimo0033\\OneDrive\\PhD\\validui\\code\\packages\\ui.causal")
 # document("C:\\Users\\Nimo0033\\OneDrive\\PhD\\validui\\code\\packages\\ui.causal")
