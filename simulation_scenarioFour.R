@@ -1,9 +1,9 @@
 # load("scenarioFour_final.Rdata")
 library(devtools)
-# install("C:\\Users\\Nimo0033\\OneDrive\\PhD\\validui\\code\\packages\\ui.causal")
-# document("C:\\Users\\Nimo0033\\OneDrive\\PhD\\validui\\code\\packages\\ui.causal")
-# install("C:\\Users\\Nimo0033\\OneDrive\\PhD\\validui\\code\\packages\\ui")
-# document("C:\\Users\\Nimo0033\\OneDrive\\PhD\\validui\\code\\packages\\ui")
+# install("C:\\Users\\...\\validui\\code\\packages\\ui.causal")
+# document("C:\\Users\\...\\validui\\code\\packages\\ui.causal")
+# install("C:\\Users\\...\\validui\\code\\packages\\ui")
+# document("C:\\Users\\...\\validui\\code\\packages\\ui")
 
 
 
@@ -11,7 +11,7 @@ install_github('https://github.com/stat4reg/hdim.ui.git')
 library(hdim.ui)
 
 #CHANGES AFTER REVISION
-#setwd('/home/sajjad/Neli/Rfiles_papertwo/')
+#setwd()
 #source("validui_func.R")
 source("/Users/niloofarmoosavi/Library/CloudStorage/OneDrive-Personal/PhD/validui/code/final/Paper Two-final/validui_func.R")
 
@@ -212,7 +212,7 @@ for (i in 1:(length(nvec))) {
 
 
 #CHANGES AFTER REVISION
-save.image("/Users/niloofarmoosavi/Library/CloudStorage/OneDrive-Personal/PhD/validui/code/final/Paper Two-final/scenarioFourRevision.Rdata")
+save.image("/Users/.../scenarioFourRevision.Rdata")
 
 
 
