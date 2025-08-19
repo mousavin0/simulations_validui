@@ -25,11 +25,6 @@ those with _refit_trueb_farrellMinusConstant are related to the estimator tauhat
 _scen3_refit_sigNotCor_ours is for tauhat - bhatrefit,
 _scen3_new_sigCor_notheory is for tahhat - bhatrefit_c.
 
-
-
-I added two generating data functions for the case where error for treatment is logistic. I will add four rcode to get the result of simulations for those dgps.
-
-
 # results
 
 
